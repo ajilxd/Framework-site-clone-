@@ -1,0 +1,73 @@
+#logo {
+    width: 160px;
+    height: 21px;
+    filter: invert(1);
+}
+
+svg {
+    filter: invert(1);
+}
+
+.section1btn {
+    background-color: #f66331;
+}
+
+video {
+    width: 1440px;
+    height: 925px;
+}
+
+email-input-btn {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #f66331;
+
+}
+
+.logo-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.last-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.svg-logo {
+    filter: invert(1);
+}
+
+
+
+li:hover {
+    text-decoration: underline;
+}
+
+
+.navbar-nav li {
+    text-decoration: none;
+    border-top: #f66331;
+}
+
+button:hover {
+    background-color: #f66331;
+}
+
+@media (min-width:1000px) {
+    #nav-hover li:hover {
+        border-top: 3px solid #f66331;
+        color: #f66331;
+    }
+
+}
